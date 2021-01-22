@@ -6,27 +6,41 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
-### `yarn start`
+## Running the Application
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 Backend server running at localhost:3001.
 
-to start the react app :
- npm start
-to start the node express server :
- node server.js
+Command to run react app :
 
-using mongodb atlas cloud database.
-database name iterative and the colletio name distances 
+```
+npm start
+```
 
+command to run node/express server :
 
-The page will reload if you make edits.\
+```
+node server.js
+```
+
+Mongodb databasename :
+
+```
+Iterative
+```
+Collection name:
+
+```
+Distances
+```
+
+The page will reload if you make edits.
 You will also see any lint errors in the console.
 
 
-### `Description`
+## `Description :`
 
 This application demonstrates to calculate the distance and time between given two locations by using Google maps APIs.
 
@@ -36,11 +50,11 @@ In the Right column i am retriving those saved data from the database table and 
 
 selective APIs which are vulnarable were strored in .env file and using it wherever required. 
 
-### `Technologies Used`
+### `Technologies :`
 
 Reactjs, Nodejs Express.js, Mongodb, Antd, Css, Html, google api, etc.
 
-### `Installations`
+### `Installations :`
 
 reactjs, nodejs, expressjs, http, https, cors , bodyparser, react-places-autocomplete, google-maps-react, axios, antd.
 
@@ -50,6 +64,12 @@ Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `yarn build`
+
+Run the following command to build the React app in the production
+
+```
+npm run build
+```
 
 Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.

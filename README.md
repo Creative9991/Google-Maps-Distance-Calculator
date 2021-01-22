@@ -11,8 +11,38 @@ In the project directory, you can run:
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
+Backend server running at localhost:3001.
+
+to start the react app :
+ npm start
+to start the node express server :
+ node server.js
+
+using mongodb atlas cloud database.
+database name iterative and the colletio name distances 
+
+
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
+
+
+### `Description`
+
+This application demonstrates to calculate the distance and time between given two locations by using Google maps APIs.
+
+In the Left coulmn I have specified two autocomplete search inputs (with using react-places-autocomplete, google-maps-react) and below with having search results for the distance and duration, after user enter two locations it will automatically calculate the distance and time and saved in the Mongodb database through Node/Express.js.
+
+In the Right column i am retriving those saved data from the database table and showing those search results with using React framework.
+
+selective APIs which are vulnarable were strored in .env file and using it wherever required. 
+
+### `Technologies Used`
+
+Reactjs, Nodejs Express.js, Mongodb, Antd, Css, Html, google api, etc.
+
+### `Installations`
+
+reactjs, nodejs, expressjs, http, https, cors , bodyparser, react-places-autocomplete, google-maps-react, axios, antd.
 
 ### `yarn test`
 

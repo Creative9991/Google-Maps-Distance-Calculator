@@ -115,11 +115,11 @@ measuringLatLng = () =>{
 async componentDidMount(){
     try {
         const historydata = await api.getHistorydata();
+        console.log(historydata);
         this.setState({ historydata , loading: false});
     } catch (err) {
         this.setState({ loading: false, error: true });
     }
-
 }
 
     
